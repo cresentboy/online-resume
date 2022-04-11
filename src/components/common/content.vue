@@ -8,24 +8,26 @@
           <span class="section-title-r"></span>
         </header>
         <div class="section-bd">
-          <!--经历:-->
+          <!--经历-->
           <div class="item">
             <header class="item-hd">
-              <h3 class="item-name"></h3>
-              <span class="item-time">2019.04 至 2020.03</span>
-              <a class="btn item-more" href="#" target="_blank" title=""
-                >工作</a
-              >
+              <h3 class="item-name"> 成都创立信息科技有限公司</h3>
+              <span class="item-time">2020.04 至 2022.03</span>
+              <a class="btn item-more" href="#" title="">工作</a>
             </header>
-            <ol class="item-project">
+
+          
+
+            <!-- <ol class="item-project">
               <li class="project-1">
                 <h3 class="project-name">
-                  <a href="#" target="_blank" title="">...</a>
-                </h3>
-                <ol>
-                  <li class="project-2">
+                  <a href="#"  title=""></a>
+                </h3> -->
+
+                <ol class="item-project">
+                  <li class="project-1">
                     <div class="item-bd">
-                      <h3 class="project-name-2">...</h3>
+                      <h3 class="project-name">项目名称</h3>
                       <div class="div-item">
                         <h3 class="project-des">【项目简介】</h3>
                         <p class="item-project-des">
@@ -38,23 +40,15 @@
                           <li>
                             负责项目框架搭建以及疑难问题解决，为项目成员提供开发思路
                           </li>
-                          <li>
-                            主导整个项目正常开发流程，研究了高可用、高并发服务器的架构设计（keepalived+nginx+haproxy）
-                          </li>
-                          <li>
-                            对常用数据进行缓存处理（Redis），并对[撮合引擎]系统进行了架构设计，采用Redis内存撮合、Rabbit
-                            MQ消息队列异步入库实现高性能撮合系统，从而实现撮合引擎弹性伸缩
-                          </li>
-                          <li>
-                            针对Redis可能出现脏读的问题可以采用消息队列处理，消除多线程同一时间操作同一Redis数据的脏读问题；或可以通过Redis锁解决高并发的脏读问题（不推荐，可能会造成无效等待）
-                          </li>
+                         
                         </ul>
                       </div>
                     </div>
                   </li>
-                  <li class="project-2">
+
+                  <li class="project-1">
                     <div class="item-bd">
-                      <h3 class="project-name-2">...</h3>
+                      <h3 class="project-name">项目名称</h3>
                       <div class="div-item">
                         <h3 class="project-des">【项目简介】</h3>
                         <p class="item-project-des">
@@ -74,107 +68,57 @@
                         </ul>
                       </div>
                     </div>
-                  </li>
-                  <li class="project-2">
-                    <div class="item-bd">
-                      <h3 class="project-name-2"></h3>
-                      <div class="div-item">
-                        <h3 class="project-des">【项目简介】</h3>
-                        <p class="item-project-des">
-                          ...
-                        </p>
-                      </div>
-                      <div class="div-item">
-                        <h3 class="project-des">【工作职责】</h3>
-                        <ul class="section-content">
-                          <li>
-                            ...
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                  </li>
+                  </li>                
                 </ol>
-              </li>
-              <li class="project-1">
-                <h3 class="project-name">
-                  <a href="#" target="_blank" title="">...</a>
-                </h3>
-                <ol>
-                  <li class="project-2">
-                    <div class="item-bd">
-                      <h3 class="project-name-2">...</h3>
-                      <div class="div-item">
-                        <h3 class="project-des">【项目简介】</h3>
-                        <p class="item-project-des">
-                          该项目是
-                        </p>
-                      </div>
-                      <div class="div-item">
-                        <h3 class="project-des">【工作职责】</h3>
-                        <ul class="section-content">
-                          <li>负责项目框架搭建</li>
-                          <li>
-                            介绍
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                  </li>
-                </ol>
-              </li>
-              <li class="project-1">
-                <h3 class="project-name">
-                  <a
-                    href="http://www.ledianyun.com/"
-                    target="_blank"
-                    title="点击进入->乐店云商城系统"
-                    >...</a
-                  >
-                </h3>
-                <ol>
-                  <li class="project-2">
-                    <div class="item-bd">
-                      <h3 class="project-name-2">后台开发</h3>
-                      <div class="div-item">
-                        <h3 class="project-des">【项目简介】</h3>
-                        <p class="item-project-des">
-                          <a href="#" target="_blank" title="">乐店云</a
-                          >是一个专门为商户提供新零售智慧店铺解决方案的<a
-                            href="#"
-                            target="_blank"
-                            title=""
-                            >简介</a
-                          >。介绍
-                        </p>
-                      </div>
-                      <div class="div-item">
-                        <h3 class="project-des">【工作职责】</h3>
-                        <ul class="section-content">
-                          <li>
-                            负责拼团功能开发，该功能主要涉及用户与用户共同下单逻辑，需要保证在库存无误的情况下，实现多用户订单的提交与交易的正常进行
-                          </li>
-                          <li>负责官网的开发以及官网搜索引擎优化</li>
-                        </ul>
-                      </div>
-                    </div>
-                  </li>
-                </ol>
-              </li>
-            </ol>
+
+              <!-- </li>                   
+            </ol> -->
+
           </div>
 
-          <!--经历:伴知旅行-->
+          <!--经历-->
           <div class="item">
-            <header class="item-hd">
-              <h3 class="item-name">河南伴知旅行网络科技有限公司(郑州)</h3>
-              <span class="item-time">2020.04 至 2022.03</span>
+             <header class="item-hd">
+              <h3 class="item-name">纬创软件</h3>
+              <span class="item-time">2019.06 至 2020.03</span>
               <a class="btn item-more" href="#" title="">工作</a>
             </header>
-          </div>
-        </div>
-      </section>
-    </div>
+
+           <!-- <ol class="item-project">
+              <li class="project-1">
+                <h3 class="project-name">
+                  <a href="#"  title=""></a>
+                </h3> -->
+
+                <ol class="item-project">
+                  <li class="project-1">
+                    <div class="item-bd">
+                      <h3 class="project-name">项目名称</h3>
+                      <div class="div-item">
+                        <h3 class="project-des">【项目简介】</h3>
+                        <p class="item-project-des">
+                          该项目为等多项服务组成。
+                        </p>
+                      </div>
+                      <div class="div-item">
+                        <h3 class="project-des">【工作职责】</h3>
+                        <ul class="section-content">
+                          <li>
+                            负责项目框架搭建以及疑难问题解决，为项目成员提供开发思路
+                          </li>                     
+                        </ul>
+                      </div>
+                    </div>
+                  </li>              
+                </ol>
+
+              <!-- </li>       
+            </ol>     -->
+
+    </section>
+  </div>
+
+
     <div class="content-right">
       <section class="skill">
         <header class="section-hd">
@@ -183,10 +127,10 @@
           <span class="section-title-r"></span>
         </header>
         <div class="section-bd">
-          <!--技能:WEB后端开发-->
+          <!--技能:后端开发-->
           <div class="item">
             <header class="item-hd">
-              <span class="item-time">WEB后端开发</span>
+              <span class="item-time">后端开发</span>
               <a class="btn item-more">熟练掌握</a>
             </header>
             <div class="item-bd">
@@ -210,7 +154,7 @@
             </div>
           </div>
 
-          <!--React-->
+          <!-- -->
           <div class="item">
             <header class="item-hd">
               <span class="item-time">数据库</span>
@@ -285,26 +229,28 @@
           <span class="section-title-r"></span>
         </header>
         <div class="section-bd">
-          以下是我的开源项目与学习总结，细节请点击链接查看文档（其他项目开发中，尚未开源，敬请期待）
+          以下是我的开源项目与学习总结
           <div class="item">
-            <header class="item-hd">博客/Github</header>
+            <header class="item-hd">博客 | 笔记仓库</header>
             <div class="item-bd">
               <ul>
                 <li>
+                  <a href="http://www.gangblog.xyz" target="_blank"
+                    >个人网站主页 - http://www.gangblog.xyz</a
+                  >
+                </li>
+
+                <li>
                   <a href="http://doc.gangblog.xyz" target="_blank"
-                    >笔记仓库</a
+                    >笔记仓库 - http://doc.gangblog.xyz</a
                   >
                 </li>
                 <li>
                   <a href="http://www.github.com/cresentboy" target="_blank"
-                    >Github</a
+                    >Github - https://www.github.com/cresentboy</a
                   >
                 </li>
-                <li>
-                  <a href="http://www.gangblog.xyz" target="_blank"
-                    >个人网站主页</a
-                  >
-                </li>
+                
               </ul>
             </div>
           </div>  
