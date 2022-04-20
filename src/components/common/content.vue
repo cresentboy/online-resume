@@ -52,8 +52,7 @@
                       <div class="div-item">
                         <h3 class="project-des">【项目简介】</h3>
                         <p class="item-project-des">
-                          该项目前端开发框架采用目前市面流行的Vue.js框架与Element
-                          UI 2.0。采用websocket、TradingView、vuex等技术栈
+                         项目简介
                         </p>
                       </div>
                       <div class="div-item">
@@ -157,12 +156,12 @@
           <!-- -->
           <div class="item">
             <header class="item-hd">
-              <span class="item-time">数据库</span>
+              <span class="item-time">大数据</span>
               <a class="btn item-more">熟练掌握</a>
             </header>
             <div class="item-bd">
               <ul class="section-content">
-                <li>熟悉关系型数据库技术，熟练使用关系型数据库Mysql、Oracle</li>
+                <li>离线数仓、实时数仓</li>
                 <li>
                   熟悉非关系型数据库技术，熟练使用非关系型数据库Nosql：Redis
                 </li>
